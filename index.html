@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>To-do List</title>
+		<link rel="stylesheet" href="main.css">
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+
+	<body>
+		<h1>to do list</h1>	
+		<h2>Items Remaining: </h2>
+		<input type="text" placeholder="Add a new item">
+		<button onclick="newTodoItem()">Add</button>	
+		<table id="myTable">
+			<tr>
+				<th>Description</th>	
+				<th>Completed</th>
+				<th>Remove</th>	
+			</tr>
+			<tr>
+				<td>Practice adding JR Event Handlers</td>
+				<td><input type="checkbox"</td>
+				<td><button>Remove</button></td>
+			</tr>
+			<tr>
+				<td>Add elements to DOM</td>
+				<td><input type="checkbox"</td>
+				<td><button>Remove</button></td>
+			</tr>
+			<tr>
+				<td>Remove Elements from DOM</td>
+				<td><input type="checkbox"</td>
+				<td><button>Remove</button></td>
+			</tr>
+			<tr>
+				<td>Update Text in the DOM</td>
+				<td><input type="checkbox"</td>
+				<td><button onclick="deleteItem()">Remove</button></td>
+			</tr>	
+		</table>	
+	</body>
+</html>
